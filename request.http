@@ -1,0 +1,28 @@
+POST http://localhost:4002/cart 
+content-type: application/json
+
+{
+    "name": "sample 1",
+    "price": 2
+}
+
+### 
+
+GET http://localhost:4002/cart 
+
+
+### 
+
+GET http://localhost:4002/cart/8f052189-ff09-44c5-a005-e2d72ee7fc78 
+
+### 
+PUT http://localhost:4002/cart/a16a4d62-90f7-4083-a421-958074d9cf6c 
+content-type: application/json
+
+{
+    "name": "caderno 199",
+    "price": 2.00
+}
+
+### 
+DELETE http://localhost:4002/cart/672902a9-b143-40f7-bf70-fb7123a2685b 
