@@ -21,16 +21,17 @@ CREATE TABLE Cart (
 );
 
 INSERT INTO cartManagement.Product (description, short_desc, name, price)
-VALUES ('Lorem ipsum dolor sit amet, consectetur', 'Lorem ispum', 'WATER', 2.00); 
+VALUES ('Lorem ipsum dolor sit amet, consectetur', 'Lorem ipsum', 'Lorem I', 2.00); 
 
 INSERT INTO cartManagement.Product (description, short_desc, name, price)
-VALUES ('Lorem ipsum dolor sit amet, sit amet', 'Lorem ispum', 'PENCIL', 0.25); 
+VALUES ('Lorem ipsum dolor sit amet, sit amet', 'Lorem ipsum', 'Lorem II', 0.25); 
 
 INSERT INTO cartManagement.Product (description, short_desc, name, price)
-VALUES ('Lorem ipsum dolor sit amet, lorem', 'Lorem ispum', 'ONIONS', 2.75); 
+VALUES ('Lorem ipsum dolor sit amet, lorem', 'Lorem ipsum', 'Lorem III', 2.75); 
 
 INSERT INTO cartManagement.Product (description, short_desc, name, price)
-VALUES ('Lorem ipsum dolor sit amet, ispum', 'Lorem ispum', 'COKE', 3.00); 
+VALUES ('Lorem ipsum dolor sit amet, ipsum', 'Lorem ipsum', 'Lorem IV', 3.00); 
 
 INSERT INTO cartManagement.Cart (mail_user, product_id )
-VALUES ('thiagoml@gmail.com', 1); 
+VALUES ('user@domain.com', 1); 
+
