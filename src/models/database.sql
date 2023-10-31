@@ -34,3 +34,4 @@ VALUES ('Lorem ipsum dolor sit amet, ipsum', 'Lorem ipsum', 'Lorem IV', 3.00);
 
 INSERT INTO cartManagement.Cart (mail_user, product_id )
 VALUES ('user@domain.com', 1); 
+
